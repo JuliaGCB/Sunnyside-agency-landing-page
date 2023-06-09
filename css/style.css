@@ -37,7 +37,7 @@ header{
     height: 80vh ;
     background-image: url(../img/image-header.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     background-repeat: no-repeat;
 }
 
@@ -48,12 +48,25 @@ header{
     align-items: center;
 }
 .text{
-    width: 50%;
-    padding-right: 30px;
+    width: 42em;
+    padding: 15vh;
 }
 .imagem{
     width: 50%;
+    background-image: url(../img/image-transform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38rem;
+    background-position: center;
+}
+.imagem2{
+    width: 50%;
+    background-image: url(../img/image-stand-out.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38rem;
+    background-position: center;
 }
 .imagem img{
-    width: 100%;
+    width: -webkit-fill-available;
 }
