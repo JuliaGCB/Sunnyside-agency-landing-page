@@ -9,8 +9,20 @@ header{
     justify-content: center;
     align-items: center;
 }
+@font-face {
+    font-family: "Barlow";
+    src: local(Barlow), url(../fonts/Barlow-Black.ttf);
+}
+@font-face {
+    font-family:"Fraunces" ;
+    src: local(Fraunces), url(../fonts/static/Fraunces_144pt-Black.ttf);
+}
+.conteiner{
+    font-size:18px;
+}
+
 #logo{
-    width: 35%;
+    width: 50%;
     font-size: larger;
 }
 #logo img{
@@ -25,11 +37,35 @@ header{
 }
 #menu ul li{
     list-style: none;
-   margin-left: 25px;
+    margin-left: 2.5em;
+    margin-right: 0;
+    
 }
 #menu a{
     color: white;
-    font-size: 19px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+#menu a:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
+}
+#menu a:active{
+    color: blue;
+    background-color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 55px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 900;
 }
 
 #banner-laranja{
@@ -40,7 +76,18 @@ header{
     background-position: bottom;
     background-repeat: no-repeat;
 }
-
+#banner-laranja{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#banner-laranja h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-top: 2em;
+    font-family: "Fraunces";
+}
 .conteudo{
     display: flex;
     flex-direction: row;
@@ -50,6 +97,16 @@ header{
 .text{
     width: 42em;
     padding: 15vh;
+ }  
+.text h3{
+    font-size: 50px;
+    font-family:"Fraunces" ;
+}
+.text p{
+    font-size: 18px;
+    color: gray;
+    font-family: "Barlow";
+    font-weight: 300;
 }
 .imagem{
     width: 50%;
@@ -69,4 +126,21 @@ header{
 }
 .imagem img{
     width: -webkit-fill-available;
+}
+
+.imagem3{
+    width: 50%;
+    background-image: url(../img/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38rem;
+    background-position: center;
+}
+.imagem4{
+    width: 50%;
+    background-image: url(../img/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 38rem;
+    background-position: top;
 }
