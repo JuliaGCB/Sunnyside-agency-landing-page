@@ -3,7 +3,8 @@
     padding: 0;
 }
 header{
-    padding: 30px;
+    padding: 40px;
+    padding-left: 8em;
     background-color: #3ebfff;
     display: flex;
     justify-content: center;
@@ -12,24 +13,27 @@ header{
 @font-face {
     font-family: "Barlow";
     src: local(Barlow), url(../fonts/Barlow-Black.ttf);
+    font-weight: 100;
 }
 @font-face {
     font-family:"Fraunces" ;
     src: local(Fraunces), url(../fonts/static/Fraunces_144pt-Black.ttf);
 }
 .conteiner{
-    font-size:18px;
+    font-size:20px;
+    width: 100%;
 }
 
 #logo{
-    width: 50%;
+    width: 75%;
     font-size: larger;
 }
 #logo img{
     cursor: pointer;
+    height: 35px;
 }
 #menu{
-    width: 10%;
+    width: 24%;
 }
 #menu ul{
     display: flex;
@@ -43,9 +47,9 @@ header{
 }
 #menu a{
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 #menu a:hover{
     color: black;
@@ -54,7 +58,7 @@ header{
     padding: 10px 25px;
     border-radius: 55px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 900;
 }
 #menu a:active{
@@ -64,7 +68,7 @@ header{
     padding: 10px 25px;
     border-radius: 55px;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 900;
 }
 
@@ -83,10 +87,11 @@ header{
 }
 #banner-laranja h1{
     color: white;
-    font-size: 50px;
+    font-size: 5.5vh;
     text-transform: uppercase;
     padding-top: 2em;
     font-family: "Fraunces";
+    letter-spacing: 10px;
 }
 .conteudo{
     display: flex;
@@ -94,34 +99,61 @@ header{
     justify-content: center;
     align-items: center;
 }
+.text-1{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .text{
-    width: 42em;
-    padding: 15vh;
+    width: 50%;
  }  
 .text h3{
-    font-size: 50px;
-    font-family:"Fraunces" ;
+    font-size: 66px;
+    color:  hsl(212, 27%, 19%);
+    font-family: "Fraunces";
+    margin-bottom: 35px;
 }
 .text p{
-    font-size: 18px;
-    color: gray;
-    font-family: "Barlow";
-    font-weight: 300;
+    font-size: 23px;
+    color: hsl(213, 9%, 39%);
+    font-weight: 400;
+    margin-bottom: 55px;
 }
+.text a{
+    color: hsl(212, 27%, 19%);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+    font-weight: 200;
+    text-decoration: none ;
+    border-bottom: 5px solid yellow ;
+}
+.text a:hover{
+    color: hsl(34, 91%, 66%);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Barlow';
+    font-weight: 200;
+    text-decoration: none;
+    border-bottom: 5px solid #f79322;
+}
+
 .imagem{
     width: 50%;
     background-image: url(../img/image-transform.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 38rem;
+    height: 720px;
     background-position: center;
+    
 }
 .imagem2{
     width: 50%;
     background-image: url(../img/image-stand-out.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 38rem;
+    height: 720px;
     background-position: center;
 }
 .imagem img{
