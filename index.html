@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>S
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Document</title>
 </head>
 <body>
@@ -145,7 +145,7 @@
                 </div>
   
                 <div class="item--carousel ">
-                  <div class=" inner-item--carousel">
+                  <div class="    inner-item--carousel">
                     <div class="image"></div>
                     <div class="name">
                       Testemonial 6
@@ -174,40 +174,27 @@
             </div>
           </div>
         <div class="Fotos">
-            
+            <div><img data-lazy="./img/image-gallery-milkbottles.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-cone.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-orange.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-sugarcubes.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-milkbottles.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-cone.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-orange.jpg" alt=""></div>
+            <div><img data-lazy="./img/image-gallery-sugarcubes.jpg" alt=""></div>
         </div>
         
     <script src="./js/script.js"></script>
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script>
-    $('.cads').slick({
-    centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
+   $('.Fotos').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 4,
+  slidesToScroll: 1
+});
     </script>
 </body>
 </html>
