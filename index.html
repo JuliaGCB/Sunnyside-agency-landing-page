@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>S
     <title>Document</title>
 </head>
 <body>
@@ -61,10 +62,152 @@
             </div>
 
         </div>
+    <!--Corrossel depoimento-->
+        <div class="person-carousel">
+            <div class="container">
+              <div class="title">
+                <h2>Client Testimonials</h2>
+              </div>
+              <div class="inner--carousel">
+                <div class="item--carousel ">
+                  <div class="inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Emily
+                    </div>
+                    <div class="job">
+                    marketing
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="item--carousel active">
+                  <div class="inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Pedro
+                    </div>
+                    <div class="job">
+                      Design
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="item--carousel ">
+                  <div class="inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Janaina
+                    </div>
+                    <div class="job">
+                      UX Design
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="item--carousel ">
+                  <div class="inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Testemonial 4
+                    </div>
+                    <div class="job">
+                      Subtitle
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="item--carousel ">
+                  <div class="inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Testemonial 5
+                    </div>
+                    <div class="job">
+                      Subtitle
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="item--carousel ">
+                  <div class=" inner-item--carousel">
+                    <div class="image"></div>
+                    <div class="name">
+                      Testemonial 6
+                    </div>
+                    <div class="job">
+                      Subtitle
+                    </div>
+                    <div class="info">
+                      Of all of the celestial bodies that capture our attention and fascination as astronomers, none has a greater
+                    </div>
+                  </div>
+                </div>
+  
+  
+              </div>
+               <div class="indicators--carousel only-mobile">
+                <div class="inner-indicators--carousel">
+                  <span class="active"></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="Fotos">
             
         </div>
         
     <script src="./js/script.js"></script>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script>
+    $('.cads').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+    </script>
 </body>
 </html>
