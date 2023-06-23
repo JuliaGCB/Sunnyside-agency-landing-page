@@ -529,5 +529,8 @@ html {
   }
   
 .Fotos img{
-  height: 50vh;
+  width: 100%;
+}
+.slick-prev slick-arrow{
+  
 }
